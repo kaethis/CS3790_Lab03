@@ -23,7 +23,7 @@ Comments:	This assignment consists of two programs:
 				nstration of the classic multi-
 				process syncronization problem
 				known as the producer-consumer
-				(or reader-writer) problem.
+				(or bounded-buffer) problem.
 
 		- ProdCons:	Virtually identical to "prodcons"
 				except implemented in the Java
