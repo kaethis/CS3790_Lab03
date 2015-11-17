@@ -26,7 +26,7 @@ int  items = 0;				/* Represents the number of (non-existant)
 sem_t  avail;				/* Signifies the number of items in the
 					 *  buffer available to consume. */
 
-stem_t empty;				/* Signifies the number of available spaces
+sem_t empty;				/* Signifies the number of available spaces
 					 *  in the buffer for an item to be produced
 					 *  and placed. */
 
