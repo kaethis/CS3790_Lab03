@@ -74,7 +74,7 @@ Instructions:	Executing either program requires two integer
 		of threads executing the producer function, the
 		second being the number of consumers. 
 
-		  prodcons:	./cthreads 5 4
+		  prodcons:	./prodcons 5 4
 
 		  ProdCons:	./java ProdCons 5 4
 
