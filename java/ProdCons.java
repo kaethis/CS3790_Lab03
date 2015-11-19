@@ -102,7 +102,6 @@ public class ProdCons{
 		}
 	}
 
-
 	static class ConsumerThread extends Thread{
 
 		int  tid;
@@ -117,7 +116,6 @@ public class ProdCons{
 		ConsumerThread(int thread_id){
 
 			tid = thread_id;
-
 		}
 
 		public void run(){
@@ -154,7 +152,6 @@ public class ProdCons{
 		}
 	}
 
-
 	public static void main(String[] args) {
 
 		String  exec_syntax = "java ProdCons <prod_num> <cons_num>\n\n";
@@ -177,6 +174,5 @@ public class ProdCons{
 
 		for(int i = 0; i < cons_num; i++)
 			(new ConsumerThread(i)).start();
-
 	}
 }
