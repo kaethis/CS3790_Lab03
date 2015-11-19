@@ -47,10 +47,14 @@ void work(){
 
 void produce(){
 
+	work();
+
 	items++;
 }
 
 void consume(){
+
+	work();
 
 	items--;
 }

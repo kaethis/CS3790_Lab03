@@ -59,6 +59,8 @@ public class ProdCons{
 
 		static void produce(){
 
+			work();
+
 			items++;
 		}
 
@@ -106,6 +108,8 @@ public class ProdCons{
 		int  tid;
 
 		static void consume(){
+
+			work();
 
 			items--;
 		}
